@@ -71,7 +71,7 @@ public class PhonebookController {
 		phonebookService.exeModify(personVo);
 
 		// 리스트로 리다이렉트
-		return "redirect:/phone/list";
+		return "redirect:/list";
 	}
 
 	// 삭제
@@ -85,7 +85,7 @@ public class PhonebookController {
 		phonebookService.exeDelete(no);
 
 		// 리스트로 리다이렉트
-		return "redirect:/phone/list";
+		return "redirect:/list";
 
 	}
 
@@ -98,7 +98,7 @@ public class PhonebookController {
 
 		phonebookService.exeWrite(personVo);
 
-		return "redirect:/phone/list";
+		return "redirect:/list";
 	}
 
 	// 등록폼

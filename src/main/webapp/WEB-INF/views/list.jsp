@@ -36,7 +36,7 @@
 					<a href="/phonebook6/delete?no=${ personVo.personId }">[삭제]</a>
 					</td>
 					<td>${ personVo.personId } 
-					<a href="/phonebook6/modifyform2?no=${ personVo.personId }&name=${ personVo.name }&hp=${ personVo.hp }&company=${ personVo.company }">
+					<a href="/phonebook6/modifyform?no=${ personVo.personId }&name=${ personVo.name }&hp=${ personVo.hp }&company=${ personVo.company }">
 							[수정]</a></td>
 				</tr>
 			</table>

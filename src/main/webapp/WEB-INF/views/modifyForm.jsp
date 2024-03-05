@@ -22,7 +22,7 @@
 	
 	
 
-	<form action="/phonebook6/phone/modify" method="get">
+	<form action="/phonebook6/modify" method="get">
 		
 		<div>
 			<input type="text" name="personId" value="${ requestScope.pVo.personId }">
